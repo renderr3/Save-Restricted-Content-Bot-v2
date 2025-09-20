@@ -28,3 +28,5 @@ STRING = getenv("STRING", None)
 YT_COOKIES = getenv("YT_COOKIES", YTUB_COOKIES)
 DEFAULT_SESSION = getenv("DEFAUL_SESSION", None)  # added old method of invite link joining
 INSTA_COOKIES = getenv("INSTA_COOKIES", INST_COOKIES)
+JOIN_LINK = os.getenv("JOIN_LINK", "https://t.me/SRC2026_1") # this link for start command message
+ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "https://t.me/Aspiranthelper836")
