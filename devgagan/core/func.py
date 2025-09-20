@@ -87,7 +87,7 @@ PROGRESS_BAR = """\n
 │ **__Speed:__** {3}/s
 │ **__ETA:__** {4}
 ╰─────────────────────╯
-"""
+**__Powered by Ezhil__**
 async def progress_bar(current, total, ud_type, message, start):
 
     now = time.time()
